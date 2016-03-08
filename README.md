@@ -1,0 +1,1 @@
+This is a little program wiht a "Point Structure", that we will use frequently to do some exercises in the future.
