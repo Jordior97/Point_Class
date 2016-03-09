@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{265BD7F3-FF2D-4890-84F5-B0D61C6393AF}</ProjectGuid>
-    <RootNamespace>Points</RootNamespace>
+    <ProjectGuid>{D2F950CD-54FD-4367-AB3E-1AC2E263E7F2}</ProjectGuid>
+    <RootNamespace>Points20</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,7 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Points2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Points2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
